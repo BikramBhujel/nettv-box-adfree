@@ -1,0 +1,13 @@
+# NetTV (WorldLink) Live TV ad servers, seen in Pi-hole logs on a NETTV-1000, Nov 2026.
+# Add each line as an exact deny in Pi-hole, or to a NextDNS / AdGuard denylist.
+ads.geniustv.geniussystems.com.np
+ads-agg.geniustv.geniussystems.com.np
+ads.nettv.com.np
+resources-static.geniustv.geniussystems.com.np
+imasdk.googleapis.com
+
+# Do NOT block these. Live TV needs them for login, channel lists, logos and updates:
+#   btbn.geniustv.geniussystems.com.np
+#   resources.geniustv.geniussystems.com.np
+#   livetv-resources.geniustv.geniussystems.com.np
+#   nxota.nettv.com.np
