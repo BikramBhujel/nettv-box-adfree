@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Home screen tile (config.xml, app_banners): tonal field, top-left light, bottom shade, icon with soft shadow. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:width="320dp" android:height="180dp">
+        <shape android:shape="rectangle">
+            <gradient android:type="linear" android:angle="315" android:startColor="#FF7DD8FF" android:centerColor="#FF3A9BF0" android:endColor="#FF1A47C7" />
+        </shape>
+    </item>
+    <item android:width="320dp" android:height="180dp">
+        <shape android:shape="rectangle">
+            <gradient android:type="radial" android:gradientRadius="230dp" android:centerX="0.12" android:centerY="0.0" android:startColor="#38FFFFFF" android:endColor="#00FFFFFF" />
+        </shape>
+    </item>
+    <item android:width="320dp" android:height="180dp">
+        <shape android:shape="rectangle">
+            <gradient android:angle="90" android:startColor="#47000000" android:centerColor="#00000000" android:endColor="#00000000" />
+        </shape>
+    </item>
+    <item android:width="100dp" android:height="100dp" android:gravity="center" android:top="7dp" android:drawable="@drawable/ic_sym_partly_cloudy_day_shadow" />
+    <item android:width="100dp" android:height="100dp" android:gravity="center" android:drawable="@drawable/ic_sym_partly_cloudy_day" />
+</layer-list>
