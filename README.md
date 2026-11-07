@@ -2,7 +2,7 @@
 
 Scripts and notes I used to clean up my WorldLink NetTV box in Nepal: no home screen ads, no ad before Live TV, ad-free YouTube, an Apple TV style home screen, and Live TV plus the monthly subscription still working.
 
-Full write-up with screenshots: [How I Removed Ads From My WorldLink NetTV Box](https://www.bikrambhujel.com.np/) on bikrambhujel.com.np.
+Full write-up with screenshots: [How I Removed Ads From My WorldLink NetTV Box](https://www.bikrambhujel.com.np/2026/11/how-i-removed-ads-from-my-worldlink.html) on bikrambhujel.com.np.
 
 > Tested on one box: NETTV-1000, Android 10, build `NETTV-1000_20240111-1728`, Live TV app 3.2.3. Other NetTV models (GX1001, NX3000, Streamz+) are different. Check yours under Settings > Device Preferences > About.
 
