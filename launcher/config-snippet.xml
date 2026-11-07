@@ -1,0 +1,39 @@
+<!-- Paste these values over the matching entries in
+     cleanyourtv/launcher/app/src/main/res/values/config.xml -->
+<string-array name="dock_apps">
+    <item>org.smarttube.stable</item>
+    <item>org.jellyfin.androidtv</item>
+    <item>np.com.geniussystems.android.stb.iptv</item>
+    <item>np.com.nepalipatro.radio</item>
+</string-array>
+<string-array name="hidden_apps">
+    <item>me.efesser.flauncher</item>
+    <item>np.com.geniussystems.android.stb.launcher</item>
+    <item>com.android.traceur</item>
+    <item>com.android.camera2</item>
+    <item>com.example.a</item>
+    <item>com.android.app.cus.aging</item>
+    <item>com.softwinner.agingdragonbox</item>
+    <item>com.softwinner.dragonbox</item>
+    <item>com.softwinner.awlogsettings</item>
+    <item>com.softwinner.update</item>
+</string-array>
+<string name="live_tv_package" translatable="false">np.com.geniussystems.android.stb.iptv</string>
+<string-array name="app_labels">
+    <item>np.com.geniussystems.android.stb.iptv=Live TV</item>
+    <item>np.com.nettv.myaccount=Account</item>
+    <item>np.com.nepalipatro.radio=Nepali Radio</item>
+    <item>org.smarttube.stable=YouTube</item>
+    <item>np.com.geniussystems.android.stb.homeplayer=Media Player</item>
+    <item>np.com.geniussystems.weather=Weather</item>
+</string-array>
+<string-array name="app_banners">
+    <item>np.com.geniussystems.android.stb.iptv=banner_nettv_live</item>
+    <item>org.smarttube.stable=banner_yt</item>
+    <item>np.com.nettv.myaccount=banner_account</item>
+    <item>np.com.nepalipatro.radio=banner_radio</item>
+    <item>np.com.geniussystems.android.stb.homeplayer=banner_media</item>
+    <item>np.com.geniussystems.weather=banner_weather</item>
+</string-array>
+<bool name="show_inputs_pill">false</bool>
+<string name="greeting_name" translatable="false">YourName</string>
